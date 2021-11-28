@@ -1,0 +1,268 @@
+            /*ヘッダーメニュー欄*/
+            .navigation{
+                width: 100%;
+                top: 0%;
+                padding: 20px 4% 10px;
+                background-color: #e0e0e0;
+                display: flex;
+                align-items: center;
+            }
+
+            /*ヘッダーメニューリスト*/
+            nav{
+                margin: 0 0 0 5vw;
+            }
+
+            /*リスト要素*/
+            .header li{
+                font-size: 1em;
+                margin: 0 0 0 5vw;
+            }
+
+            /*リスト*/
+            .header ul{
+                list-style: none;
+                margin: 0;
+                display: flex;
+            }
+
+            /*SDGs Donation Supportの部分*/
+            .title h2{
+                margin: o;
+                padding: 0;
+                font-size: 0.1em;
+                
+            }
+
+            /*ハイパーリンク*/
+            a{
+                text-decoration: none;
+                color: #4b4b4b;
+            }
+
+            /*ボタンホバー時の処理*/
+            .btn a:hover{
+                color: #f2f2f2;
+            }
+
+            /*headerクラス内のハイパーリンクのホバー時の処理*/
+            .header a:hover{
+                background: rgba(255, 255, 255, 0.3);
+            }
+
+            /*fadeInアニメーションの処理*/
+            @keyframes fadeIn{
+                0%{
+                    opacity: 0;
+                }
+
+                100%{
+                    opacity: 1;
+                }
+            }
+
+            /*btn1の装飾*/
+            .btn a{
+                background-color: transparent;
+                color: rgba(255, 255, 255, 0.9);
+                position: absolute;
+                top: 70%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                font-family: serif;
+                margin: 0%;
+                border: rgba(255, 255, 255, 0.9) solid 2px;
+                padding: 3vw;
+                font-size: 1em;
+                justify-content: center;
+                align-items: center;
+                
+                color: #fff;
+                font-size: 2vw;
+                font-weight: 700;
+                text-decoration: none;
+                transition: 0.3s;
+
+                /*以下アニメーション*/
+                animation-name: fadeIn;
+                animation-fill-mode: backwards;
+                animation-duration: 2s;
+                animation-iteration-count:infinite;
+                animation-direction: normal;
+
+                text-shadow: 1px 1px 2px #808080;
+                border-radius: 50px;
+                cursor: pointer, auto;
+            }
+            
+            /*見出し1の装飾*/
+            h1 {
+                font-family: serif;
+                
+            }
+
+            /*headerクラスの装飾*/
+            .header { 
+                position: relative;
+            }
+
+            /*phraseクラスの装飾*/
+            .phrase {
+                width: 100;
+                position: absolute;
+                color: aliceblue;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                font-size: 2.5em;
+                color: rgba(255, 255, 255, 0.9);
+                text-shadow: 1px 2px 4px #808080;
+            }
+
+            /*背景画像の装飾*/
+            .back{
+                width: 100%;
+                border-radius: 50px;
+                background: #e0e0e0;
+                box-shadow:  20px 20px 60px #bebebe,
+                            -20px -20px 60px #ffffff;
+                margin: auto;
+            }
+
+            /*bodyクラスの装飾*/
+            body{
+                background-color: #e0e0e0;
+                margin-bottom: 5vw;
+            }
+
+            /*mainクラスの装飾*/
+            main{
+                background-color: #e0e0e0;
+                
+                
+            }
+
+            /*footerクラスの装飾*/
+            footer{
+                background-color: #e0e0e0;
+            }
+
+            .main-container{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                width: 100%;
+                margin-top: 5vw;
+            }
+
+            .main-container img{
+                max-width: 100%;
+                height: auto;
+                width:30vw;
+                border-radius: 50px;
+                background: #e0e0e0;
+                box-shadow:  20px 20px 60px #bebebe,
+                            -20px -20px 60px #ffffff;
+                margin: 1.5vw;
+                
+                
+
+            }
+
+            .containts{
+                border-radius: 5%;
+                background-color: #fff;
+                height: auto;
+                box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+
+            }
+
+            .containts h2{
+                text-align: center;
+                font-size: 7vw;
+                padding-top: 10%;
+                font-family: serif;
+                text-shadow: 1px 2px 3px #333;
+            }
+
+            .containts p{
+                padding-left: 10%;
+                padding-right: 10%;
+                font-size: 2.5vw;
+            }
+
+            .yellow-line{
+                background: linear-gradient(transparent 60%, #ffff00 0%);
+            }
+
+            .imgs{
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+                align-content: space-around;
+                padding-left: 10%;
+                padding-right: 10%;
+                
+            }
+
+            .imgs img{
+                width: 13%;
+                border-radius: 10%;
+                background: #ffffff;
+                box-shadow:  20px 20px 60px #d9d9d9;
+                margin: 1%;
+            }
+
+            .btn-flex{
+                display: flex; 
+                justify-content: space-around;
+                padding-left: 10%;
+                padding-right: 10%; 
+                }
+
+            .btn-flex a{
+                border-radius: 15%;
+                background: #00bfff;
+                box-shadow:  20px 20px 60px #d9d9d9,
+                            -20px -20px 60px #ffffff;
+                padding: 2%;
+                color: #fff;
+                margin-top: 3vw;
+                margin-bottom: 7vw;
+                font-size: 2vw;
+                font-family: serif;
+            }
+
+            .btn-flex a :hover{
+                color: rgba(255, 255, 255, 0.3);
+            }
+
+
+
+            /*スマホ表示*/
+            @media screen and (max-width:600px){
+
+                .title {
+                    font-size: 0.02em;
+                }
+
+                .site-nav p{
+                    font-size: 0.01em;
+                }
+
+                .right-side {
+                    margin-right: 5vw;
+                }
+
+                .main-container img{
+                    border-radius: 30%;
+                }
+
+                .phrase  {
+                    font-size: 1em;
+                }
+                
+            }
+
+            
